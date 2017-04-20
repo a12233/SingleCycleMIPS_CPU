@@ -1,0 +1,17 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sim_1/imports/lab 7/lab7_top_tb.v,1481821301,verilog,,,,top_tb,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_MIPSALU.v,1481822193,verilog,,,,MIPSALU,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_adder.v,1481729632,verilog,,,,adder,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_controlUnit.v,1481729632,verilog,,,,Control_Unit,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_dataMemory.v,1481824555,verilog,,,,Data_Memory,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_extendImmediate.v,1481729632,verilog,,,,Extend_Immediate,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_insmem.v,1481821049,verilog,,,,instruction_memory,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_mux2.v,1481729632,verilog,,,,mux2,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_mux4_pcsrc.v,1481729632,verilog,,,,mux4_pcsrc,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_pc.v,1481823769,verilog,,,,program_counter,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_regfile.v,1481821708,verilog,,,,regfile,,,,,,,,
+C:/Users/lirex/Desktop/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/sources_1/imports/lab 7/lab7_top.v,1481823504,verilog,,,,top,,,,,,,,

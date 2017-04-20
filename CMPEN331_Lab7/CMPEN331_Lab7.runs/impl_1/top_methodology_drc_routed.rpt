@@ -1,0 +1,116 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Fri Dec 16 13:02:10 2016
+| Host         : LAPTOP-O4PP0NO2 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_methodology_drc_routed.rpt -rpx top_methodology_drc_routed.rpx
+| Design       : top
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 16
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay | 2          |
+| TIMING-20 | Warning  | Non-clocked latch             | 14         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on rst relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on finish relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch Control_Unit1/aluc_reg[0] cannot be properly analyzed as its control pin Control_Unit1/aluc_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch Control_Unit1/aluc_reg[1] cannot be properly analyzed as its control pin Control_Unit1/aluc_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch Control_Unit1/aluc_reg[2] cannot be properly analyzed as its control pin Control_Unit1/aluc_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch Control_Unit1/aluc_reg[3] cannot be properly analyzed as its control pin Control_Unit1/aluc_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch Control_Unit1/aluimm_reg cannot be properly analyzed as its control pin Control_Unit1/aluimm_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch Control_Unit1/jal_reg cannot be properly analyzed as its control pin Control_Unit1/jal_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch Control_Unit1/m2reg_reg cannot be properly analyzed as its control pin Control_Unit1/m2reg_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch Control_Unit1/pcsrc_reg[0] cannot be properly analyzed as its control pin Control_Unit1/pcsrc_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch Control_Unit1/pcsrc_reg[1] cannot be properly analyzed as its control pin Control_Unit1/pcsrc_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch Control_Unit1/regrt_reg cannot be properly analyzed as its control pin Control_Unit1/regrt_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch Control_Unit1/sext_reg cannot be properly analyzed as its control pin Control_Unit1/sext_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch Control_Unit1/shift_reg cannot be properly analyzed as its control pin Control_Unit1/shift_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch Control_Unit1/wmem_reg cannot be properly analyzed as its control pin Control_Unit1/wmem_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch Control_Unit1/wreg_reg cannot be properly analyzed as its control pin Control_Unit1/wreg_reg/G is not reached by a timing clock
+Related violations: <none>
+
+

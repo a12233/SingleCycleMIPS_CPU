@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Dec 14 10:33:59 2016
+# Process ID: 8216
+# Current directory: C:/Users/pva5115/Downloads/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7680 C:\Users\pva5115\Downloads\Lab7_PunnavitAkkarapitakchai\CMPEN331_Lab7\CMPEN331_Lab7.xpr
+# Log file: C:/Users/pva5115/Downloads/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/vivado.log
+# Journal file: C:/Users/pva5115/Downloads/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pva5115/Downloads/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.xpr
+launch_simulation
+launch_simulation
+source top_tb.tcl
+restart
+run all
+run 1500 ns
+close_sim
+launch_simulation
+source top_tb.tcl
+restart
+run 1500 ns
+close_sim
+launch_simulation
+source top_tb.tcl
+restart
+run 50 us
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+refresh_design
+reset_run impl_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+launch_simulation
+source top_tb.tcl
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+add_files -fileset constrs_1 -norecurse C:/Users/pva5115/Downloads/ZYBO_MASTER.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+refresh_design
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+remove_files -fileset constrs_1 C:/Users/pva5115/Downloads/Lab7_PunnavitAkkarapitakchai/CMPEN331_Lab7/CMPEN331_Lab7.srcs/constrs_1/new/clock11.xdc
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1

@@ -1,0 +1,104 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Fri Dec 16 13:01:42 2016
+| Host         : LAPTOP-O4PP0NO2 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7z010
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    41 |
+| Unused register locations in slices containing registers |    50 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              14 |            9 |
+| No           | No                    | Yes                    |              32 |           16 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             992 |          422 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------+------------------------------------+------------------+------------------+----------------+
+|                Clock Signal               |            Enable Signal           | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-------------------------------------------+------------------------------------+------------------+------------------+----------------+
+|  program_counter1/pc_reg[20]_1            |                                    |                  |                1 |              1 |
+|  program_counter1/register_reg[1][0]_2    |                                    |                  |                1 |              1 |
+|  program_counter1/register_reg[1][0]_4    |                                    |                  |                1 |              1 |
+|  program_counter1/register_reg[1][0]_1[1] |                                    |                  |                1 |              1 |
+|  program_counter1/register_reg[31][31]_1  |                                    |                  |                2 |              2 |
+|  program_counter1/E[0]                    |                                    |                  |                1 |              2 |
+|  program_counter1/register_reg[1][1]_8    |                                    |                  |                1 |              3 |
+|  program_counter1/register_reg[1][0]_1[0] |                                    |                  |                1 |              3 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[7][31]  |                  |               16 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[10][31] |                  |               10 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[11][31] |                  |               12 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[12][31] |                  |               13 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[13][31] |                  |               13 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[14][31] |                  |               10 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[15][31] |                  |               10 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[16][31] |                  |               12 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[17][31] |                  |                7 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[18][31] |                  |               13 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[19][31] |                  |               11 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[20][31] |                  |               20 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[21][31] |                  |               12 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[23][31] |                  |               13 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[24][31] |                  |               12 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[25][31] |                  |                9 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[26][31] |                  |               10 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[27][31] |                  |               14 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[28][31] |                  |               14 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[29][31] |                  |               15 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[2][31]  |                  |               12 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[3][31]  |                  |               16 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[4][31]  |                  |               14 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[5][31]  |                  |               11 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[6][31]  |                  |               18 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[8][31]  |                  |               19 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[9][31]  |                  |               25 |             32 |
+|  clk_IBUF_BUFG                            |                                    | rst_IBUF         |               16 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register             |                  |               10 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[30][31] |                  |               14 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[31][31] |                  |               23 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/register_reg[22][31] |                  |               14 |             32 |
+|  clk_IBUF_BUFG                            | Control_Unit1/wmem                 |                  |               32 |            128 |
++-------------------------------------------+------------------------------------+------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     4 |
+| 2      |                     2 |
+| 3      |                     2 |
+| 16+    |                    33 |
++--------+-----------------------+
+
+
